@@ -1,0 +1,41 @@
+{
+  "name": "jasonswebsite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "bsw": "gulp",
+    "build": "gulp build",
+    "clean-all": "gulp clean",
+    "clean": "gulp clean:code",
+    "pretty": "gulp prettify:src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Paul-Browne/jasonswebsite.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Paul-Browne/jasonswebsite/issues"
+  },
+  "homepage": "https://github.com/Paul-Browne/jasonswebsite#readme",
+  "devDependencies": {
+    "compression": "^1.6.2",
+    "del": "^3.0.0",
+    "express": "^4.15.2",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-changed": "^3.1.0",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-image": "^4.0.0",
+    "gulp-jsbeautifier": "^2.1.1",
+    "gulp-less": "^3.5.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^3.0.0",
+    "run-sequence": "^2.2.0",
+    "serve-static": "^1.12.1"
+  }
+}
