@@ -1,2 +1,1 @@
-const run = require("web-build-process");
-run();
+require("web-build-process").run();
