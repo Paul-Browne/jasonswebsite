@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/Paul-Browne/jasonswebsite#readme",
   "devDependencies": {
-    "web-build-process": "1.4.1"
+    "web-build-process": "1.4.3"
   }
 }
