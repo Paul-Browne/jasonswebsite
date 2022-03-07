@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "start": "node node_modules/web-build-process/scripts/run.js",
-    "build": "node node_modules/web-build-process/scripts/build_only.js"
+    "start": "node bsw.js",
+    "build": "node build.js"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,6 @@
   },
   "homepage": "https://github.com/Paul-Browne/jasonswebsite#readme",
   "devDependencies": {
-    "web-build-process": "1.4.3"
+    "web-build-process": "^3.1.6"
   }
 }
