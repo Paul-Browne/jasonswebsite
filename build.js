@@ -1,7 +1,7 @@
 import wbp from "web-build-process";
 
 wbp({
-    id: "jasonsite",
+    id: "jasonsite-123",
     source: "src",                // source directory default:"src"
     dist: "public",               // build directory default:"public"
     buildOnly: true,             // builds once only, doesn't serve, watch or prettify default:false
