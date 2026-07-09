@@ -96,6 +96,11 @@ ul.no-bullets{
         object-fit: cover;
         object-position: center;
         border-radius: 6px;
+        cursor: zoom-in;
+        transition: scale 0.3s ease-in-out;
+        &:hover{
+            scale: 1.05;
+        }
     }
 }
 
@@ -108,9 +113,42 @@ img.lightbox-active {
     width: 100vw;
     height: 100vh;
     object-fit: contain; /* Ensures the whole image is visible */
-    z-index: 9999;
+    z-index: 100;
     background: rgba(0, 0, 0, 0.9);
     cursor: zoom-out;
     padding: 20px;
     box-sizing: border-box;
+    transition: scale 0s;
+    &:hover{
+        scale: 1;
+    }
   }
+
+.lightbox-close{
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    border: none;
+    border-radius: 50%;
+    background: #fff;
+    color: #000;
+    cursor: pointer;
+    z-index: 500;
+    display: none;
+    align-items: center;
+    justify-content: center;
+
+    svg {
+        display: block;
+    }
+}
+  
+body:has(.lightbox-active){
+    overflow: hidden;
+    .lightbox-close{
+        display: flex;
+    }
+}

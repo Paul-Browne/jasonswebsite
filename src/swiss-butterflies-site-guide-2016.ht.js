@@ -1,10 +1,11 @@
 import html from "./components/html.js";
-import { main, fragment, div, p, ul, li, img } from "javascript-to-html";
+import { main, fragment, div, p, ul, li, img, button } from "javascript-to-html";
 
 import simpleHeader from "./components/simpleHeader.js";
 import overseasCustomers from "./components/overseasCustomers.js";
 import amazon from "./components/amazon.js";
 import purchaseDirect from "./components/purchaseDirect.js";
+import closeIcon from "./components/closeIcon.js";
 
 const TITLE = "Swiss Butterflies Site Guide (2016)";
 const DESCRIPTION = "This is a pioneering, original, site guide to Swiss Butterflies. Easily accessible butterfly sites across Switzerland are described. The full range of habitat is visited including Woodland, Wetland, Rocky Steppe, Mountain and High Mountain. Nectar plants are identified where possible. Butterfly subspecies found in specific locations are highlighted. Locations for species not covered in the main sites, are indicated in additional sites to visit. Each page has a unique selection of photographs. All photographs are identified with the butterfly, date and place. Photograph locations are given according to the River Valley and Canton.";
@@ -37,10 +38,16 @@ const content = main({
     div({
             class: "images-container",
         },
-        img({ src: `/images/${IMAGE_TOP_LEFT}`, alt: "" }),
-        img({ src: `/images/${IMAGE_TOP_RIGHT}`, alt: "" }),
-        img({ src: `/images/${IMAGE_BOTTOM_LEFT}`, alt: "" }),
-        img({ src: `/images/${IMAGE_BOTTOM_RIGHT}`, alt: "" }),
+        img({ src: `/images/${IMAGE_TOP_LEFT}`, alt: "", onclick: "import('/js/lightbox.js').then(M => M.default(this))" }),
+        img({ src: `/images/${IMAGE_TOP_RIGHT}`, alt: "", onclick: "import('/js/lightbox.js').then(M => M.default(this))" }),
+        img({ src: `/images/${IMAGE_BOTTOM_LEFT}`, alt: "", onclick: "import('/js/lightbox.js').then(M => M.default(this))" }),
+        img({ src: `/images/${IMAGE_BOTTOM_RIGHT}`, alt: "", onclick: "import('/js/lightbox.js').then(M => M.default(this))" }),
+        button({ 
+            onclick: "import('/js/lightbox.js').then(M => M.closeLightbox())",
+            class: "lightbox-close",
+            type: "button",
+            "aria-label": "Close lightbox"
+        }, closeIcon())
     ),
 );
 
