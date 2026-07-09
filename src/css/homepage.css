@@ -1,0 +1,136 @@
+html {
+font-size: 100%;
+-ms-text-size-adjust: 100%;
+-webkit-text-size-adjust: 100%;
+}
+
+button,
+html,
+input,
+select,
+textarea {
+font-family: sans-serif;
+}
+
+body {
+font-family: Times, Arial, serif;
+font-size: 19px;
+line-height: 1.4;
+margin: 0;
+}
+
+a:focus {
+outline: thin dotted;
+}
+
+a:active,
+a:hover {
+outline: 0;
+}
+
+h1 {
+font-size: 2em;
+margin: 0.67em 0;
+}
+
+h2 {
+font-size: 1.5em;
+margin: 0.83em 0;
+}
+
+h3 {
+font-size: 1.17em;
+margin: 1em 0;
+}
+
+h4 {
+font-size: 1em;
+margin: 1.33em 0;
+}
+
+h5 {
+font-size: 0.83em;
+margin: 1.67em 0;
+}
+
+h6 {
+font-size: 0.67em;
+margin: 2.33em 0;
+}
+
+b,
+strong {
+font-weight: 700;
+}
+
+hr {
+-moz-box-sizing: content-box;
+box-sizing: content-box;
+height: 0;
+}
+
+p,
+pre {
+margin: 1em 0;
+}
+
+q {
+quotes: none;
+}
+
+q:after,
+q:before {
+content: "";
+content: none;
+}
+
+small {
+font-size: 80%;
+}
+
+sub,
+sup {
+font-size: 75%;
+line-height: 0;
+position: relative;
+vertical-align: baseline;
+}
+
+sup {
+top: -0.5em;
+}
+
+sub {
+bottom: -0.25em;
+}
+
+dl,
+menu,
+ol,
+ul {
+margin: 1em 0;
+}
+
+menu,
+ol,
+ul {
+padding: 0 0 0 40px;
+}
+
+img {
+border: 0;
+-ms-interpolation-mode: bicubic;
+}
+
+body {
+background: skyblue;
+}
+
+#wrapper {
+width: 1020px;
+margin: 0 auto;
+}
+
+ul {
+list-style: none;
+}
