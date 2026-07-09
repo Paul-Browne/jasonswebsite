@@ -43,7 +43,7 @@ const content = main({
         img({ src: `/images/${IMAGE_BOTTOM_LEFT}`, alt: "", onclick: "import('/js/lightbox.js').then(M => M.default(this))" }),
         img({ src: `/images/${IMAGE_BOTTOM_RIGHT}`, alt: "", onclick: "import('/js/lightbox.js').then(M => M.default(this))" }),
         button({ 
-            onclick: "import('/js/lightbox.js').then(M => M.closeLightbox())",
+            onclick: "import('/js/lightbox.js').then(M => M.closeLightboxes())",
             class: "lightbox-close",
             type: "button",
             "aria-label": "Close lightbox"
