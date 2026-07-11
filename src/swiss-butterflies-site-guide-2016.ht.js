@@ -1,6 +1,6 @@
-import html from "./components/html.js";
 import { main, fragment, div, p, ul, li, img, button } from "javascript-to-html";
 
+import html from "./components/html.js";
 import simpleHeader from "./components/simpleHeader.js";
 import overseasCustomers from "./components/overseasCustomers.js";
 import amazon from "./components/amazon.js";

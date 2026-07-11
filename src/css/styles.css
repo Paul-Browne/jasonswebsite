@@ -61,6 +61,15 @@ p{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    @media (max-width: 600px) {
+        flex-direction: column;
+        align-items: flex-start;
+        margin: 20px 0; 
+        h2{
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+    }
 }
 
 ul.no-bullets{
@@ -99,7 +108,7 @@ ul.no-bullets{
         cursor: zoom-in;
         transition: scale 0.3s ease-in-out;
         &:hover{
-            scale: 1.05;
+            scale: 1.03;
         }
     }
 }
