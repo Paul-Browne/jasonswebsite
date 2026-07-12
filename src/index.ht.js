@@ -55,6 +55,8 @@ const content = main(
     p("Special offer: Buy two magazines for £18.00 including postage."),
     p(b("Early books and magazines "), "(view online)"),
     ul({ class: "no-bullets" },
+        li(newBadge(), a({ href: "/images/European Butterflies Issue Three 2020.pdf" }, "European Butterflies Issue Three 2020")),
+        li(newBadge(), a({ href: "/images/South West USA and the Four Corners.pdf" }, "South West USA and the Four Corners")),
         li(a({ href: "/images/European Butterflies Issue Two 2019.pdf" }, "European Butterflies Issue Two 2019")),
         li(a({ href: "/images/European Butterflies Issue One 2018.pdf" }, "European Butterflies Issue One 2018")),
         li(a({ href: "/images/Swiss Narrow Gauge volume two 2014.pdf" }, "Swiss Narrow Gauge volume two 2014")),
