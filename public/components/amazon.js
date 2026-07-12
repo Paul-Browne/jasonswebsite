@@ -1,0 +1,1 @@
+import{c as o,f as a,j as r,l as t}from"../chunk-PCRNONYO.js";var m=({amazonUrl:e="https://www.amazon.com/stores/Jason-Sargerson/author/B00IAAUFAW"}={})=>t(a("Credit and Debit Card Customers"),r("If you wish to use Credit and Debit Cards, obtain from ",o({href:e},"www.amazon.co.uk"),"."));export{m as default};
