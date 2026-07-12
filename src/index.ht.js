@@ -1,6 +1,8 @@
 import html from "./components/html.js";
 import { fragment, img, h1, header, main, h3, a, small, p, ul, li, b } from "javascript-to-html";
 
+import newBadge from "./components/newBadge.js";
+
 const pageHeader = header({
         class: "homepage-header"
     },
@@ -28,7 +30,7 @@ const content = main(
         li(a({ href: "swiss-standard-gauge-2019" }, "Swiss Standard Gauge (2019)")),
         li(a({ href: "swiss-narrow-gauge-north-and-east-2017" }, "Swiss Narrow Gauge North and East (2017)")),
         li(a({ href: "swiss-narrow-gauge-south-and-west-2017" }, "Swiss Narrow Gauge South and West (2017)")),
-        li(a({ href: "swiss-narrow-gauge-rhb-bernina-2026" }, "Swiss Narrow Gauge RhB Bernina (2026)")),
+        li(newBadge(), a({ href: "swiss-narrow-gauge-rhb-bernina-2026" }, "Swiss Narrow Gauge RhB Bernina (2026)")),
         li(a({ href: "papilio" }, "Papilio (2015): European and US Butterfly Site Guide")),
         li(a({ href: "southwest-usa-and-four-corners" }, "Southwest USA and Four Corners (2015)")),
     ),
@@ -42,7 +44,7 @@ const content = main(
     p(b("European Butterflies Magazine: "), "This is a new butterfly enthusiasts magazine covering Europe, including articles about Individual Species, Conservation, Life Cycle, Field Trips and Butterfly Sites."),
     p("The issues available are:"),
     ul({ class: "no-bullets" },
-        li(a({ href: "european-butterflies-issue-nine-spring-2026" }, "European Butterflies Issue Nine: Spring 2026")),
+        li(newBadge(), a({ href: "european-butterflies-issue-nine-spring-2026" }, "European Butterflies Issue Nine: Spring 2026")),
         li(a({ href: "european-butterflies-issue-eight-spring-2025" }, "European Butterflies Issue Eight: Spring 2025")),
         li(a({ href: "european-butterflies-issue-seven-spring-2024" }, "European Butterflies Issue Seven: Spring 2024")),
         li(a({ href: "european-butterflies-issue-six-spring-2023" }, "European Butterflies Issue Six: Spring 2023")),

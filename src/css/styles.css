@@ -170,3 +170,17 @@ body:has(.lightbox-active){
         height: 300px;
     }
 }
+
+.badge{
+    font-family: sans-serif;
+    text-transform: lowercase;
+    background: #333;
+    color: #fff;
+    padding: 3px 5px;
+    border-radius: 5px;
+    font-size: 13px;
+    vertical-align: middle;
+    margin-right: 0.5rem;
+    line-height: 16.5px;
+    display: inline-block;    
+}
