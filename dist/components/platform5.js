@@ -1,0 +1,1 @@
+import{f as e,j as o,m as r}from"../chunk-ZJKSMQZG.js";var s=()=>r(e("Overseas Customers"),o("Platform 5 mail order (Telephone 0114 255 8000) can take overseas orders. They have stocks of my books and can supply worldwide."));export{s as default};

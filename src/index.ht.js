@@ -1,5 +1,5 @@
 import html from "./components/html.js";
-import { fragment, img, h1, header, main, h3, a, small, p, ul, li, b } from "javascript-to-html";
+import { fragment, img, h1, a, small, p, ul, b, li, h3, main, header } from "javascript-to-html";
 
 import newBadge from "./components/newBadge.js";
 

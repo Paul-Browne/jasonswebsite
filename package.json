@@ -5,9 +5,9 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+    "dev": "sitelo",
+    "build": "sitelo build",
+    "preview": "sitelo preview"
   },
   "engines": {
     "node": ">=20.0.0"
@@ -24,7 +24,6 @@
   "homepage": "https://github.com/Paul-Browne/jasonswebsite#readme",
   "devDependencies": {
     "javascript-to-html": "^1.1.4",
-    "vite": "^8.1.3",
-    "vite-plugin-html-pages": "^1.7.1"
+    "sitelo": "^2.0.2"
   }
 }

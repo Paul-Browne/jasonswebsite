@@ -6,7 +6,7 @@ export default defineConfig({
     htmlPages({
       pagesDir: 'src',
       cleanUrls: true,
-      debug: true
+      debug: false
     }),
   ],
   build: {
