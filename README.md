@@ -4,10 +4,10 @@
 
 `npm install`
 
-## build and serve locally
+## serve locally
 
-`npm start`
+`npm run dev`
 
-## build only, used for netlify hosting
+## build
 
 `npm run build`

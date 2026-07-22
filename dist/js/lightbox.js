@@ -1,1 +1,0 @@
-var e=t=>{if(!document.startViewTransition){t.classList.toggle("lightbox-active");return}document.startViewTransition(()=>{t.classList.toggle("lightbox-active")})},i=()=>{[...document.querySelectorAll(".lightbox-active")].forEach(o=>e(o))};document.addEventListener("keydown",t=>{t.key==="Escape"&&i()});var s=e;export{i as closeLightboxes,s as default};

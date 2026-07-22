@@ -1,3 +1,6 @@
 export default {
-  site: 'https://https://jasonsargerson.uk'
+  pagesDir: 'src',
+  cleanUrls: true,
+  debug: false,
+  site: 'https://jasonsargerson.uk'
 }

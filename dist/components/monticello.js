@@ -1,1 +1,0 @@
-import{f as t,j as o,m as e}from"../chunk-ZJKSMQZG.js";var a=()=>e(t("Monticello"),o("This book is available in the United States through the Monticello Visitor Center, Monticello, Utah. It is available in the UK through Waterstones Bookshops."));export{a as default};
