@@ -24,6 +24,6 @@
   "homepage": "https://github.com/Paul-Browne/jasonswebsite#readme",
   "devDependencies": {
     "javascript-to-html": "^1.1.4",
-    "sitelo": "^2.0.2"
+    "sitelo": "^2.0.3"
   }
 }

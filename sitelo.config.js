@@ -2,5 +2,15 @@ export default {
   pagesDir: 'src',
   cleanUrls: true,
   debug: false,
-  site: 'https://jasonsargerson.uk'
+  site: 'https://jasonsargerson.uk',
+  vite: {
+    publicDir: 'static',
+    build: {
+      emptyOutDir: true,
+      outDir: 'public',
+    },
+    server: {
+      port: 8888,
+    },
+  }
 }
